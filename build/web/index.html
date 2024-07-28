@@ -220,7 +220,7 @@ asyncio.run( custom_site() )
 //
 //
 //
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
     {%- if cookiecutter.comment != "" -%}
 {{cookiecutter.comment}}
     {% endif %}
@@ -240,9 +240,9 @@ config = {
     ume_block : 1,
     can_close : 0,
     archive : "supermarioboy-0.2.1",
-    gui_debug : 5,
+    gui_debug : 3,
     cdn : "https://pygame-web.github.io/archives/0.9/",
-    autorun : 1,
+    autorun : 0,
     PYBUILD : "3.12"
 }
 
@@ -357,8 +357,8 @@ config = {
 
 
     <canvas class="emscripten" id="canvas"
-width="800px"
-height="640px"
+width="1px"
+height="1px"
     oncontextmenu="event.preventDefault()" tabindex=1>
     </canvas>
 
